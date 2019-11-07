@@ -1,5 +1,5 @@
 {
-    "name": "fuzzfree/bi_phpforce_soapclient",
+    "name": "fuzzfree/phpforce-soap-client-custom",
     "type": "library",
     "description": "Forked from phpforce/soap-client - A PHP client for the Salesforce SOAP API",
     "keywords": [ "salesforce", "crm", "soap", "force.com", "web services" ],
