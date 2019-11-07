@@ -1,7 +1,7 @@
 {
-    "name": "phpforce/soap-client",
+    "name": "fuzzfree/bi_phpforce_soapclient",
     "type": "library",
-    "description": "A PHP client for the Salesforce SOAP API",
+    "description": "Forked from phpforce/soap-client - A PHP client for the Salesforce SOAP API",
     "keywords": [ "salesforce", "crm", "soap", "force.com", "web services" ],
     "license": "MIT",
     "authors": [
@@ -9,11 +9,14 @@
             "name": "David de Boer",
             "email": "david@ddeboer.nl",
             "homepage": "http://ddeboer.nl"
+        },
+		{
+            "name": "Antonis Adamakos",
+            "email": "antonis.adamakos@marinetraffic.com"
         }
     ],
     "require": {
         "php": ">=5.3.0",
-        "phpforce/common": "dev-master",
         "psr/log": "*"
     },
     "require-dev": {
