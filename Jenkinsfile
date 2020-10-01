@@ -10,6 +10,7 @@ pipeline {
         echo 'My first blue pipe!'
         sleep 5
         sh 'php -r "echo __DIR__;"'
+        sh 'rm -rf _BUILD/'
       }
     }
 
@@ -18,7 +19,7 @@ pipeline {
         eee333 = '333'
       }
       steps {
-        sh 'mkdir -p _BUILD && cd _BUILD/ &&  git clone https://github.com/composer/ca-bundle.git --depth=1 _BUILD/'
+        sh 'mkdir -p _BUILD && cd _BUILD/ &&  git clone https://github.com/composer/ca-bundle.git --depth=1 .'
       }
     }
 
