@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('Prepare') {
       steps {
         echo 'My first blue pipe!'
         sleep 5
