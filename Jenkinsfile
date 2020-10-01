@@ -18,7 +18,7 @@ pipeline {
         eee333 = '333'
       }
       steps {
-        sh 'mkdir -p _BUILD && cd _BUILD/ &&  git clone https://github.com/composer/ca-bundle.git --depth=1_BUILD/'
+        sh 'mkdir -p _BUILD && cd _BUILD/ &&  git clone https://github.com/composer/ca-bundle.git --depth=1 _BUILD/'
       }
     }
 
