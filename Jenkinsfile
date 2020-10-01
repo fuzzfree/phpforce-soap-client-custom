@@ -22,5 +22,16 @@ pipeline {
       }
     }
 
+    stage('Composer') {
+      environment {
+        eee444 = '444'
+      }
+      steps {
+        sh '''composer install; php -r \'print_r($_SERVER);\'
+php -r \'print_r($_ENV);\'
+'''
+      }
+    }
+
   }
 }
